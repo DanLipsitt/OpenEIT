@@ -1,8 +1,8 @@
 # Example of interaction with a BLE UART device using a UART service
 # implementation.
 # Author: Tony DiCola
-from OpenEIT.backend.bluetooth import Adafruit_BluefruitLE
-from OpenEIT.backend.bluetooth.Adafruit_BluefruitLE.services import UART
+import Adafruit_BluefruitLE
+from Adafruit_BluefruitLE.services import UART
 
 
 # Get the BLE provider for the current platform.
