@@ -53,6 +53,10 @@ def main():
     ap.add_argument("--virtual-tty",
                     action="store_true",
                     default=False)
+    ap.add_argument("--debug-dash",
+                    action="store_true",
+                    default=False,
+                    help="Show debug messages in gui.")
     ap.add_argument("port", nargs="?")
 
     args = ap.parse_args()
